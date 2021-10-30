@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  /* For mobile phones: */
+
+  .navbar-brand span {
+    font-size: 15px !important;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .navbar {
+    background-color: #0353c5 !important;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.55);
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+  .navbarActive {
+    background-color: #06070891 !important;
+  }
+  #carouselExampleControls {
+    margin-top: 56.5px !important;
+  }
+  .about-us {
+    margin-top: 1px;
+  }
+  .page-banner {
+    padding-top: 55px;
+  }
+  /* .counter .col-md-4 {
+    padding: 15px 0px;
+  } */
+}
+@media (max-width: 576px) {
+  .navbar-brand span {
+    font-size: 20px !important;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
